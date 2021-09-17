@@ -39,7 +39,7 @@ input[type=button]:hover{
     padding: 15px;
     cursor: pointer;
 }
-@media screen and (min-width: 520px) {
+@media screen and (min-width:1020px) {
 ul{
     width:40rem;
 }
