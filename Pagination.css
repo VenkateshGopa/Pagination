@@ -27,7 +27,7 @@ nav{
     display: inline-block;
 }
 input[type=button]{
-    font-size: larger;
+    font-size:large;
     padding: 10px;
     background-color: transparent;
     border: 1px solid rgba(255, 255, 255, 0.295);
@@ -38,4 +38,13 @@ input[type=button]:hover{
     background-color: rgba(169, 82, 219, 0.336);
     padding: 15px;
     cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+ul{
+    width:auto;
+}
+input[type=button]{
+    font-size:small;
+    padding: 2px;
+}
 }
