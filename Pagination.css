@@ -6,7 +6,7 @@ ul{
     background-color: transparent;
     /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    width: 40rem;
+    /* width: 40rem; */
     border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
@@ -27,8 +27,8 @@ nav{
     display: inline-block;
 }
 input[type=button]{
-    font-size:large;
-    padding: 10px;
+    font-size:small;
+    padding: 2px;
     background-color: transparent;
     border: 1px solid rgba(255, 255, 255, 0.295);
     border-radius: 5px;
@@ -39,12 +39,12 @@ input[type=button]:hover{
     padding: 15px;
     cursor: pointer;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 520px) {
 ul{
-    width:auto;
+    width:40rem;
 }
 input[type=button]{
-    font-size:small;
-    padding: 2px;
+    font-size:large;
+    padding: 10px;
 }
 }
